@@ -1,0 +1,5 @@
+1- Database.SetInitializer<EFDbContext>(null);
+2- enable-migrations
+3- AutomaticMigrationsEnabled = true;  
+    AutomaticMigrationDataLossAllowed = false; 
+4- Update-Database -Verbose
